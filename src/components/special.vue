@@ -5,7 +5,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 
 function proceed(){
-    router.push("/special")
+    router.push("/niah")
 }
 
 </script>
@@ -13,9 +13,9 @@ function proceed(){
 <template>
     <div class="container">
         <div class="message">
-            <h1>You're the semicolon in my program. <br>It will be an error kapag wala ka</h1>
+            <h1>You're guiding me to forever. My future Flight Attendant</h1>
             <div class="image"></div>
-            <button class="next" @click="proceed">Corny mo tanga</button>
+            <button class="next" @click="proceed">Feeling ko nakaganto ka na 🙄</button>
         </div>
     </div>
 </template>
@@ -42,9 +42,9 @@ function proceed(){
         height: 400px;
         width: 100%;
 
-        background-image: url("../assets/shrek.jpeg");
+        background-image: url("../assets/p2.jpg");
         background-size: cover;
-        background-position-y: center;
+        background-position-y: bottom;
         background-repeat: no-repeat;
         margin-top: 30px;
 

@@ -5,7 +5,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 
 function proceed(){
-    router.push("/special")
+    router.push("/us")
 }
 
 </script>
@@ -13,9 +13,10 @@ function proceed(){
 <template>
     <div class="container">
         <div class="message">
-            <h1>You're the semicolon in my program. <br>It will be an error kapag wala ka</h1>
+            <h1>NIAH BAHO HAHAHAHAHAAHHAHAHA</h1>
+            <p>Sabi niya sa akin na isama daw siya dito.<br> Sinama ko na or baka ngatngatin niya raw <br>yung tsinelas ko kapag nagkita kami</p>
             <div class="image"></div>
-            <button class="next" @click="proceed">Corny mo tanga</button>
+            <button class="next" @click="proceed">Bully ka talaga sa anak mo</button>
         </div>
     </div>
 </template>
@@ -23,13 +24,13 @@ function proceed(){
 <style scoped>
     .container {
         height: 100vh;
-        background-color: white;
+        background-color: var(--violet-color);
 
         display: flex;
         justify-content: center;
         align-items: center;
 
-        color: var(--violet-color);
+        color: white;
         text-align: center;
     }
 
@@ -42,7 +43,7 @@ function proceed(){
         height: 400px;
         width: 100%;
 
-        background-image: url("../assets/shrek.jpeg");
+        background-image: url("../assets/p3.jpg");
         background-size: cover;
         background-position-y: center;
         background-repeat: no-repeat;
@@ -53,8 +54,8 @@ function proceed(){
     }
 
     .next{
-        background-color: var(--violet-color);
-        border-color: var(--violet-color);
+        background-color: unset;
+        border-color: white;
         border-style: solid;
         border-radius: 10px;
         border-width: 2px;
